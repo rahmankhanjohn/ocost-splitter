@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "window": "2026-10-19T00:00:00Z",
+      "total": 1000,
+      "idle": 80,
+      "shared": 120,
+      "other": 0,
+      "compute": 800,
+      "storage": 200,
+      "network": 0,
+      "namespaces": {
+        "default":     { "total": 120, "idle": 0, "shared": 0, "compute": 115, "storage": 5, "cpuCoreHours": 200, "ramGiBHours": 400 },
+        "payments":    { "total": 380, "idle": 0, "shared": 0, "compute": 330, "storage": 50, "cpuCoreHours": 800, "ramGiBHours": 1600 },
+        "kube-system": { "total": 150, "idle": 0, "shared": 0, "compute": 140, "storage": 10, "cpuCoreHours": 120, "ramGiBHours": 300 },
+        "reporting":   { "total": 60,  "idle": 0, "shared": 0, "compute": 50,  "storage": 10, "cpuCoreHours": 90,  "ramGiBHours": 180 },
+        "staging":     { "total": 90,  "idle": 0, "shared": 0, "compute": 85,  "storage": 5,  "cpuCoreHours": 60,  "ramGiBHours": 110 }
+      },
+      "nodes": {}
+    }
+  ]
+}
