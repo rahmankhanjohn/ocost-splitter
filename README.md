@@ -1,5 +1,14 @@
 # ocost-splitter
 
+![Tests](https://github.com/rahmankhanjohn/ocost-splitter/actions/workflows/test.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Go 1.22+](https://img.shields.io/badge/go-1.22+-00ADD8.svg)
+![Static binary](https://img.shields.io/badge/static--binary-yes-brightgreen.svg)
+![Tests: 11](https://img.shields.io/badge/tests-11%20passing-brightgreen.svg)
+![CNCF Candidate](https://img.shields.io/badge/CNCF-contribution%20candidate-blue.svg)
+![GitHub stars](https://img.shields.io/github/stars/rahmankhanjohn/ocost-splitter?style=social)
+![Last commit](https://img.shields.io/github/last-commit/rahmankhanjohn/ocost-splitter)
+
 Split the unattributed cost of a shared Kubernetes cluster across the namespaces that share it.
 
 In a multi-tenant cluster, shared cost lands on no namespace. DNS, ingress, monitoring, the control plane fee, cross-namespace transfer. No tag splits it, so cost per tenant cannot be stated, and the honest number in every report is a guess.

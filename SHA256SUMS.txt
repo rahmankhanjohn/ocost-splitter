@@ -1,0 +1,2 @@
+42838cecb4bbcaa9ba418c360bd092ef76dd87321ea608db9380c6bc1206993f  ocost-splitter.exe
+c2740152f72024f5bfac0ed228bce6e309c0205da23280951ccc14f7fff5c7cc  ocost-splitter-linux-amd64
