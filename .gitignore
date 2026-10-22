@@ -1,8 +1,8 @@
-﻿__pycache__/
+__pycache__/
 *.pyc
 .DS_Store
 build/
 dist/
 *.exe
-ocost-splitter
+/ocost-splitter
 ocost-splitter-linux-amd64
