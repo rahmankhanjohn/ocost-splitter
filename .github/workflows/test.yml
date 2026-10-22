@@ -21,4 +21,4 @@ jobs:
       - name: Run tests
         run: go test ./...
       - name: Build
-        run: go build -o ocost-splitter .
+        run: go build -o ocost-splitter ./cmd/ocost-splitter/
