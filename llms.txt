@@ -1,0 +1,51 @@
+# ocost-splitter
+
+Split the unattributed cost of a shared Kubernetes cluster across the namespaces that share it.
+
+## What it does
+
+Reads OpenCost allocation data and applies one of four split methods to the shared cost pool:
+- Proportional: weighted by measured consumption
+- Equal: split evenly per namespace
+- Weighted: by revenue, headcount, or custom weights
+- None: baseline (no split, shows the unattributed total)
+
+Outputs per-namespace result and a paste-ready report line.
+
+## Key files
+
+- cmd/ocost-splitter/main.go: CLI entry point (Go)
+- internal/allocation/model.go: data models
+- internal/split/split.go: split logic
+- go.mod: module definition (Go 1.24)
+
+## CLI usage
+
+    ocost-splitter --input allocation.json --method proportional
+    ocost-splitter --input allocation.json --method equal --report
+
+## Flags
+
+- --input: path to OpenCost allocation JSON
+- --method: split method (proportional, equal, weighted, none)
+- --weights: path to weights CSV (for weighted method)
+- --report: one paste-ready summary line
+- --json: machine-readable output
+
+## Exit codes
+
+- 0: success
+- 1: error
+
+## Design patterns
+
+- Go 1.24, single static binary
+- Zero runtime dependencies (stdlib only)
+- MIT license
+- CNCF contribution candidate (upstreamable to OpenCost)
+- --report mode for paste-ready output
+
+## Related
+
+- Article 17: "K8s Cost: The 30 Percent No Tag Can Split"
+- XERJ Corpus Hub: not yet selected
