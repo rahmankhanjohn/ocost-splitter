@@ -1,7 +1,8 @@
-# ocost-splitter
+﻿# ocost-splitter
 
 ![Tests](https://github.com/rahmankhanjohn/ocost-splitter/actions/workflows/test.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/rahmankhanjohn/badge.svg)
 ![Go 1.22+](https://img.shields.io/badge/go-1.22+-00ADD8.svg)
 ![Static binary](https://img.shields.io/badge/static--binary-yes-brightgreen.svg)
 ![Tests: 11](https://img.shields.io/badge/tests-11%20passing-brightgreen.svg)
@@ -127,6 +128,10 @@ go vet ./...
 ## Where this comes from
 
 Written while preparing *Kubernetes Cost: The 30 Percent No Tag Can Split*, and built to be upstreamable to OpenCost rather than to sit next to it.
+
+## Recognition
+
+Indexed on the [XERJ Corpus Hub](https://hub.xerj.org/contributors/rahmankhanjohn) - the open reference memory AI coding agents search before they write code.
 
 ## License
 
