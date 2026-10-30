@@ -136,3 +136,7 @@ Indexed on the [XERJ Corpus Hub](https://hub.xerj.org/contributors/rahmankhanjoh
 ## License
 
 MIT
+
+## Who is this for?
+
+No telemetry in this tool. If you use it, plan to, or rejected it, tell us your environment in [the discussion thread](https://github.com/rahmankhanjohn/{repo}/discussions/1). Operator replies steer the roadmap.
