@@ -2,7 +2,7 @@
 
 ![Tests](https://github.com/rahmankhanjohn/ocost-splitter/actions/workflows/test.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/rahmankhanjohn/badge.svg)
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/rahmankhanjohn/badge.svg)](https://hub.xerj.org/contributors/rahmankhanjohn)
 ![Go 1.22+](https://img.shields.io/badge/go-1.22+-00ADD8.svg)
 ![Static binary](https://img.shields.io/badge/static--binary-yes-brightgreen.svg)
 ![Tests: 11](https://img.shields.io/badge/tests-11%20passing-brightgreen.svg)
